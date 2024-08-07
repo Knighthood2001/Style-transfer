@@ -1,0 +1,4 @@
+torch
+Pillow==9.5.0
+torchvision
+tensorboard
