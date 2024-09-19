@@ -13,7 +13,7 @@
 2. 安装依赖
 - 这里由于我没有用到虚拟环境，无法准确得出需要用的包，大致就是torch和我requirements.txt中的包。
 - 安装命令
-安装torch的话，直接去网上搜一下，换个源，下载更快
+安装torch的话，会比较慢
 ```shell
 pip install -r requirements.txt
 ```
