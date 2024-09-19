@@ -5,15 +5,16 @@
 
 原项目代码的讲解地址：https://www.bilibili.com/video/BV1yY4y1c7Cz/
 
-本项目是对原想木的一点点完善。
-
+本项目是对原项目的一点点完善。
+# 更新
+- 2024-08-03 更新：这个项目，是不能保存模型参数的，也就是说，你只能通过训练，得出图片，而不能直接进行推理。
 # 项目如何运行
 1. 下载项目
 这个比较简单，直接在github上下载zip包，然后解压即可。或者使用git clone命令克隆项目。
 2. 安装依赖
 - 这里由于我没有用到虚拟环境，无法准确得出需要用的包，大致就是torch和我requirements.txt中的包。
 - 安装命令
-安装torch的话，直接去网上搜一下，换个源，下载更快
+安装torch的话，会比较慢
 ```shell
 pip install -r requirements.txt
 ```
@@ -94,4 +95,5 @@ style_img = style_img.to(device)
 </div>
 
 效果其实还不错
+
 
