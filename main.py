@@ -78,7 +78,7 @@ class VGGNet(nn.Module):
         return features
 
 # for name, layer in models.vgg19(weights=VGG19_Weights.IMAGENET1K_V1).features._modules.items():
-#     print(name)
+#     print(name, type(name))
 #     print(layer)
 
 # 加载图片
