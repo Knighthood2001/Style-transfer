@@ -143,7 +143,7 @@ for step in range(1, total_step+1):
     logging.info("Step [{}/{}], Content Loss: {:.4f}, Style Loss: {:.4f}, loss: {:.2f}"
                  .format(step, total_step, content_loss.item(), style_loss.item(), loss.item()))
 
-    if step % 500 == 0:
-        current_model = copy.deepcopy(vgg.state_dict())
-        torch.save(current_model, "save_model/model_{}.pth".format(step))
+    # if step % 500 == 0:
+    #     current_model = copy.deepcopy(vgg.state_dict())
+    #     torch.save(current_model, "save_model/model_{}.pth".format(step))
 writer.close()
